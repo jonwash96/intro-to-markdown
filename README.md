@@ -1,5 +1,7 @@
 # Writing a Function in JavaScript
 
+![Image of a computer on a table](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab/exercise/assets/james-harrison-unsplash.jpg)
+
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
 
 ---
@@ -12,8 +14,7 @@ const functionName = (params) => {
 }
 ```
 
-### const:
-const should be used whenever a function expression is assigned to a variable.
+- **const:** const should be used whenever a function expression is assigned to a variable.
 - **The function name:** The name you choose for the function.
 - **Parameters:** Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
 - **The arrow syntax:** Indicates that this will be a function.
