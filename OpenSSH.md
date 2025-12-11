@@ -3,7 +3,9 @@
 - How to:: #ssh #howtocomputer #howto #linux #macos #shell #bash #SSH howtossh how to ssh
 > **Note:** This file was imported from Roam Research and edited with One Markdown. Not all MD editors are the same, and some include other features. Certain content may not appear correctly in this document, depending on your MD viewer.
 
-> **Note:** This document is not complete—a work in progress, especially the Windows section. Any input or suggestions you'd like to contribute are more than welcome.!
+> **Note:** This document is not complete—a work in progress, especially the Windows section. Any input or suggestions you'd like to contribute are more than welcome!
+
+---
 
 # Basic SSH Commands (OS Agnostic)
 - **Login** to a device: `ssh user@hostname -p 22`
@@ -31,7 +33,7 @@
 
 
 ### How to: Configure Named Hosts (Nicknames)
-1. Open Client config: `sudo nano /etc/ssh/ssh_config`
+1. Open Client config: `sudo nano /etc/ssh/config`
 2. Create a new host above `Host *`; Settings are only changed once per read, subsequent changes of a variable are ignored.
 - *Add a known host:*
   ```shell
