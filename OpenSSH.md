@@ -30,11 +30,13 @@
 ### General Info
 - **Keys** are stored in: `~/.ssh/`
 - **Client Config:** `~/.ssh/config`
+- **Global Config:** `/etc/ssh/ssh_config`
 
 
 ### How to: Configure Named Hosts (Nicknames)
-1. Open Client config: `sudo nano /etc/ssh/config`
-2. Create a new host above `Host *`; Settings are only changed once per read, subsequent changes of a variable are ignored.
+1. Open Client config: `nano ~/.ssh/config`
+   - *use the local config to configure remote hosts, not the global config*
+3. Create a new host above `Host *`; Settings are only changed once per read, subsequent changes of a variable are ignored.
 - *Add a known host:*
   ```shell
   Host <arbitrary name>
